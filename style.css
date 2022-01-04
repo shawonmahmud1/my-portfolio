@@ -11,7 +11,7 @@ h1{
 .orange{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
@@ -75,6 +75,7 @@ h1.header-margin {
 }
 .download{
     display: flex;
+    padding-top: 50px;
 }
 .kathal{
     display: flex;
@@ -89,4 +90,53 @@ h1.header-margin {
 }
 .we{
     width: 90%;
+}
+/* experoence section */
+.experience-area{
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 60px 20px 80px 40px;
+    box-shadow: 0 5px 25px rgb(0 0 0 / 60%);
+    border-radius: 3px;
+}
+h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+p{
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(39, 39, 38);
+    margin-top: 30px;
+}
+#full-stack{
+background-image: linear-gradient(orange tomato);
+border-left: 5px solid;
+border-image-slice: 1;
+}
+#baby-stack{
+   background-image: linear-gradient(blue cyan);
+   border-left: 5px solid;
+   border-image-slice: 1;
+}
+#title{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+footer p {
+    text-align: center;
 }
